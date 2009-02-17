@@ -18,12 +18,8 @@
     var insertMode = false;
 
 
-    /*
-     * Get rid of old navigation bindings. I have no idea why this method was
-     * named 'enableDefaults'
-     */
+    // Get rid of old navigation bindings.
     $(unsafeWindow.document).unbind("keyup");
-    //Skimmer.Key.enableDefaults();
 
     // Up: 'J'
     Skimmer.Key.press(74, function () {
