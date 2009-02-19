@@ -1,8 +1,8 @@
 Vim navigation for New York Times' Article Skimmer
 
+Navigate using the home row keys like you would in vim. There are two modes: source mode and article mode. You start off in source mode which allwos you to navigate up and down the left column. To enter story mode press 'i'. Once you've selected a story you want to read press enter. Go back to source mode by pressing escape.
 
-NOTE: Clicking on skimvim.user.js above _will not_ install the Greasemonkey script. If you click on that link it will attempt to install a github page as the script. To install the script, visit the following URL:
+
+HUGE NOTE: Clicking on skimvim.user.js above _will not_ install the Greasemonkey script. If you click on that link it will attempt to install a github page as the script. To install the script, visit the following URL:
 
  http://github.com/seliopou/skimvim/raw/HEAD/skimvim.user.js 
-
-Like vim there are two modes: source mode and story mode. You start off in source mode, which allows you to navigate the left nav column using 'j' and 'k'. To enter story mode, press 'i'. You can then navigate the stories with 'h', 'j', 'k', and 'l'. If you find a story you like, highlight it and press enter to go to read the story. Go back to source mode pressing escape.
