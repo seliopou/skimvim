@@ -103,7 +103,7 @@
 
         if (index !== null) {
             currentStory = index;
-            $(".container", $(insertModeContext.get(currentStory))).css("background-color", "black");
+            $(".container", $(insertModeContext.get(currentStory))).css("background-color", "#EEEEEE");
         }
     }
 })();
