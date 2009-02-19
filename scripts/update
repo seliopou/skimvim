@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if [ -z $BASE ]; then
+    BASE=`pwd`
+fi
+
+if [ -z $PROFILE ]; then
+    echo "PROFILE must be set the name of your Firefox profile"
+    exit 1
+fi
+
+GM_PATH="/Users/`whoami`/Library/Application Support/Firefox/Profiles/$PROFILE/gm_scripts/skimvim/skimvim.user.js"
+
+cp $BASE/skimvim.user.js "$GM_PATH"
