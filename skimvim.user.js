@@ -78,7 +78,7 @@
     // Navigate through sources ("command mode")
     Skimmer.Key.press(27, exitStoryMode);
 
-    // Also enter "command mode" when a source is manuall clicked
+    // Also enter "command mode" when a source is manually clicked
     $("#skimmerPageNavigation li").click(exitStoryMode);
 
     function enterStoryMode() {
